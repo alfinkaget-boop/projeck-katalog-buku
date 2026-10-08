@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
+<>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Katalog Buku')</title>
-</head>
+<
+
 <body>
     <nav>
         <a href="{{ route('books.index') }}"></a>

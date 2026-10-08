@@ -7,7 +7,7 @@
 
     <form method="POST" action="{{ route('books.store') }}">
         @csrf
-
+         @include('books._form')
         {{-- Judul Buku --}}
         <div>
             <label for="title">Judul Buku *</label>
